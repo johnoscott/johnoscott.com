@@ -5,6 +5,49 @@
   <id>https://johnoscott.com/blog/</id>
   <link rel="self" type="application/atom+xml" href="https://johnoscott.com/blog/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://johnoscott.com/blog/"/>
-  <updated>2026-01-01T00:00:00Z</updated>
+  <updated>2026-10-19T00:00:00Z</updated>
   <author><name>Johno Scott</name><uri>https://johnoscott.com/</uri></author>
+  <entry>
+    <title>Fun - a gallery of single-file HTML toys</title>
+    <id>https://johnoscott.com/blog/fun-html-toys</id>
+    <link rel="alternate" type="text/html" href="https://johnoscott.com/blog/fun-html-toys"/>
+    <published>2026-10-19T00:00:00Z</published>
+    <updated>2026-10-19T00:00:00Z</updated>
+    <summary>My fun repository is a gallery of screensavers and small experiments, each one a single HTML file you open in a browser and watch.</summary>
+    <category term="side-projects"/>
+    <category term="html"/>
+    <content type="html">&lt;p&gt;&lt;a href="https://johnoscott.github.io/fun/"&gt;Fun&lt;/a&gt; is where I keep things I make for the joy of it: screensavers, small simulated worlds and experiments. There are 27 projects and 40 files so far. Each one is a single HTML file with everything inside it. There&amp;#x27;s nothing to install and no build step: open it and it plays.&lt;/p&gt;
+&lt;figure class="shot"&gt;&lt;div class="frame"&gt;&lt;img src="https://johnoscott.com/blog/images/fun-html-toys/gallery.jpg" alt="The fun gallery: a featured Aquarium card and shelves of screensavers and experiments" width="1280" height="900" loading="lazy" decoding="async"&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id="a-day-in-a-minute"&gt;A day in a minute&lt;a class="anchor" href="https://johnoscott.com/blog/fun-html-toys#a-day-in-a-minute" aria-label="Link to this section"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Most of the screensavers share one idea: a whole day in 60 seconds. The light changes from sunrise to moonlight, the weather rolls through, and then the loop starts again.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aquarium&lt;/strong&gt; follows a submarine past a coral garden, a kelp meadow, a shipwreck and a glowing cave. Version 2 has 156 animals with their own behaviour: fish school together and scatter from sharks, turtles graze, octopuses explore and seahorses hide in the kelp.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Swiss station clock&lt;/strong&gt; is the SBB platform clock, drawn to Hilfiker&amp;#x27;s geometry, with 24 hours passing in a minute, a train going by and a scripted Swiss weather day.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Retro arcade&lt;/strong&gt; cycles through homages to Frogger, Pac-Man, Space Invaders, Asteroids, Galaga and Donkey Kong, under the same compressed sky.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class="shot"&gt;&lt;div class="frame"&gt;&lt;img src="https://johnoscott.com/blog/images/fun-html-toys/aquarium.jpg" alt="Aquarium v2: a coral garden seen from the submarine, with the shipwreck in the distance" width="1280" height="720" loading="lazy" decoding="async"&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;figure class="shot"&gt;&lt;div class="frame"&gt;&lt;img src="https://johnoscott.com/blog/images/fun-html-toys/clock.jpg" alt="The Swiss station clock on platform 2 at Zug, mid-morning" width="1280" height="720" loading="lazy" decoding="async"&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id="origami-fps-six-versions-in"&gt;Origami FPS, six versions in&lt;a class="anchor" href="https://johnoscott.com/blog/fun-html-toys#origami-fps-six-versions-in" aria-label="Link to this section"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Origami FPS is a first-person walk through a toy battlefield where everything is folded paper. It plays itself: you aim, fire in bursts and reload, and allies and enemies fight around you. Each version adds one idea:&lt;/p&gt;
+&lt;div class="tablewrap" tabindex="0" role="region" aria-label="Table: Origami FPS, six versions in"&gt;&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th scope="col"&gt;Version&lt;/th&gt;&lt;th scope="col"&gt;What it added&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;v1&lt;/td&gt;&lt;td&gt;The paper battlefield, a 60-second day and blended weather&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;v2&lt;/td&gt;&lt;td&gt;Enemies flutter down as sheets of paper and fold into soldiers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;v3&lt;/td&gt;&lt;td&gt;Real folding: each soldier folds up from one connected paper net&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;v4&lt;/td&gt;&lt;td&gt;Foxes, frogs, crane bombers and peaceful rabbits, penguins and elephants&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;v5&lt;/td&gt;&lt;td&gt;Lighting from behind you and a bright, blue full moon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;v6&lt;/td&gt;&lt;td&gt;A themed stage every day, with enemies hiding behind walls&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;figure class="shot"&gt;&lt;div class="frame"&gt;&lt;img src="https://johnoscott.com/blog/images/fun-html-toys/origami.jpg" alt="Origami FPS v6: stage one, the Toy Block Fort, at 13:03 on a clear day" width="1280" height="720" loading="lazy" decoding="async"&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;Two URL parameters jump straight to a moment: &lt;code&gt;?t=&lt;/code&gt; sets the time of day in seconds and &lt;code&gt;?w=&lt;/code&gt; the weather (&lt;code&gt;clear&lt;/code&gt;, &lt;code&gt;cloudy&lt;/code&gt;, &lt;code&gt;rain&lt;/code&gt;, &lt;code&gt;storm&lt;/code&gt;, &lt;code&gt;snow&lt;/code&gt; or &lt;code&gt;fog&lt;/code&gt;). For example: &lt;a href="https://johnoscott.github.io/fun/html-screensaver/origami-fps/origami-fps-v6.html?t=40&amp;amp;w=snow"&gt;https://johnoscott.github.io/fun/html-screensaver/origami-fps/origami-fps-v6.html?t=40&amp;amp;w=snow&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="how-the-gallery-builds-itself"&gt;How the gallery builds itself&lt;a class="anchor" href="https://johnoscott.com/blog/fun-html-toys#how-the-gallery-builds-itself" aria-label="Link to this section"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The files live in two folders: &lt;code&gt;html-screensaver/&lt;/code&gt; for the finished pieces and &lt;code&gt;experiments/&lt;/code&gt; for scratch projects from AI-tool sessions. Every project folder has a changelog.&lt;/p&gt;
+&lt;p&gt;On every push to &lt;code&gt;main&lt;/code&gt;, a GitHub Actions workflow runs a short Node script (&lt;code&gt;scripts/build-pages.mjs&lt;/code&gt;) that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;finds every HTML file in both folders and groups versions (&lt;code&gt;-v1&lt;/code&gt;, &lt;code&gt;-v2&lt;/code&gt;, …) into one card per project;&lt;/li&gt;
+&lt;li&gt;takes each card&amp;#x27;s name from the file&amp;#x27;s &lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;checks that every local file a page links to exists, and offers only the source for pages that can&amp;#x27;t run on their own (server templates, missing bundles);&lt;/li&gt;
+&lt;li&gt;writes the gallery page and a &lt;code&gt;catalogue.json&lt;/code&gt;, then publishes to GitHub Pages.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Adding a toy means adding a file. To preview the gallery locally:&lt;/p&gt;
+&lt;figure class="code"&gt;&lt;figcaption&gt;&lt;span&gt;sh&lt;/span&gt;&lt;button class="copy" type="button"&gt;Copy&lt;/button&gt;&lt;/figcaption&gt;&lt;pre tabindex="0" role="region" aria-label="Code (sh)"&gt;&lt;code&gt;node scripts/build-pages.mjs
+python3 -m http.server 8000 --directory _site&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;The code is at &lt;a href="https://github.com/johnoscott/fun"&gt;https://github.com/johnoscott/fun&lt;/a&gt;, and the gallery is at &lt;a href="https://johnoscott.github.io/fun/"&gt;https://johnoscott.github.io/fun/&lt;/a&gt;. Press &amp;quot;Surprise me&amp;quot; to start somewhere random.&lt;/p&gt;</content>
+  </entry>
 </feed>
