@@ -178,8 +178,8 @@ class Post(md.Page):
         if src not in self.images:
             self.images.append(src)
         alt = md.strip_tags(self.inline(b['alt'], b['ln']))
-        return ('<figure class="shot"><img src="images/%s/%s" alt="%s" width="%d" height="%d" loading="lazy" '
-                'decoding="async"></figure>' % (self.slug, esc(src), esc(alt), w, h))
+        return ('<figure class="shot"><div class="frame"><img src="images/%s/%s" alt="%s" width="%d" height="%d" '
+                'loading="lazy" decoding="async"></div></figure>' % (self.slug, esc(src), esc(alt), w, h))
 
     def check_fragments(self):
         ids = {b['id'] for b in self.walk(self.blocks) if b['t'] == 'h'}
@@ -230,7 +230,7 @@ def head(title, desc, url, kind, extra='', md_url=''):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
 <title>{t}</title>
 <meta name="description" content="{d}">
 <meta name="author" content="{name}">
