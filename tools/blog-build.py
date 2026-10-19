@@ -191,14 +191,20 @@ class Post(md.Page):
         return self.render(self.blocks)
 
     def body_md(self):
-        """The post's Markdown with its image paths made absolute (links are absolute already)."""
-        out, fence = [], None
+        """The post's Markdown with its image paths made absolute (links are absolute already) and its HTML comments
+        dropped, as the renderer drops them: a comment is a note to the author, never published."""
+        out, fence, comment = [], None, False
         for line in self.lines:
             st = line.strip()
             if fence:
                 out.append(line)
                 if st.startswith(fence) and set(st) <= set(fence[0]):
                     fence = None
+                continue
+            if comment or line.startswith('<!--'):
+                comment = '-->' not in line
+                if out and not out[-1].strip():
+                    out.pop()                     # no doubled blank line where the comment was
                 continue
             m = md.FENCE.match(st)
             if m:

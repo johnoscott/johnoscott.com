@@ -16,8 +16,6 @@ everything inside it. There's nothing to install and no build step: open it and 
 
 ![The fun gallery: a featured Aquarium card and shelves of screensavers and experiments](https://johnoscott.com/blog/images/fun-html-toys/gallery.jpg)
 
-<!-- TODO (Johno): a sentence or two on why you started this, and how you make them (by hand, with an AI agent, or both). -->
-
 ## A day in a minute
 
 Most of the screensavers share one idea: a whole day in 60 seconds. The light changes from sunrise to moonlight,
